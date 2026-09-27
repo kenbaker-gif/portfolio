@@ -1,0 +1,22 @@
+<svg width="540" height="540" viewBox="0 0 540 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="470" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.5" stop-color="#101B2F"/>
+      <stop offset="1" stop-color="#1A1333"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="100" y1="110" x2="430" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="540" height="540" rx="270" fill="url(#bg)"/>
+  <circle cx="270" cy="270" r="218" stroke="url(#ring)" stroke-width="10" opacity="0.75"/>
+  <circle cx="270" cy="270" r="186" stroke="#E8F0FE" stroke-opacity="0.12" stroke-width="2"/>
+
+  <path d="M160 390C180 328 218 290 270 290C322 290 360 328 380 390" stroke="#E8F0FE" stroke-opacity="0.2" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="270" cy="210" r="68" fill="#E8F0FE" fill-opacity="0.12"/>
+  <path d="M224 214L192 346H230L255 268L280 346H318L343 214H376L332 392H292L270 334L248 392H208L164 214H224Z" fill="#E8F0FE"/>
+  <path d="M188 180C211 140 247 115 290 115C332 115 368 140 390 180" stroke="url(#ring)" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+</svg>
