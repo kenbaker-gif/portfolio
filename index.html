@@ -33,7 +33,12 @@
   <div>
     <div class="hero-tag">&#9632; available for opportunities</div>
     <h1>Ainebyona<br/><span>Abubaker</span></h1>
-    <p class="hero-sub">IST Student &amp; Aspiring ML Engineer. I build AI-powered systems and deploy real-world SaaS applications that solve actual problems.</p>
+    <p class="hero-sub">IST student and aspiring ML engineer building AI-powered systems, scalable backend products, and real-world SaaS solutions that solve meaningful problems.</p>
+    <div class="hero-meta" aria-label="Core specialties">
+      <span>AI Systems</span>
+      <span>Backend</span>
+      <span>SaaS</span>
+    </div>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">view projects &#8594;</a>
       <a href="#contact" class="btn-ghost">get in touch</a>
@@ -50,9 +55,9 @@
       <a href="https://x.com/AinebyonaAbuba3" target="_blank" class="social-link" title="Twitter / X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
     </div>
   </div>
-  <div class="hero-photo-wrap">
+  <div class="hero-photo-wrap" aria-label="Ainebyona Abubaker branding mark">
     <div class="hero-photo-inner">
-      <img src="profile.jpg" alt="Ainebyona Abubaker" class="hero-photo"/>
+      <img src="avatar.svg" alt="Ainebyona Abubaker initials avatar" class="hero-photo"/>
     </div>
   </div>
 </div>
@@ -65,9 +70,9 @@
   <div class="sec-title">Who I am</div>
   <div class="about-grid">
     <div class="about-text">
-      <p>I'm an <strong>Information Systems &amp; Technology student</strong> focused on building intelligent, scalable systems that bridge the gap between AI research and real-world deployment.</p>
+      <p>I'm an <strong>Information Systems &amp; Technology student</strong> focused on building intelligent, scalable systems that connect AI research to real-world deployment.</p>
       <br/>
-      <p>I specialize in <strong>backend development</strong>, <strong>AI/ML integration</strong>, and deploying production-grade applications. My flagship project, FaceAttend, is a live SaaS product serving universities. I hold <strong>20+ Coursera certifications</strong> from Stanford, DeepLearning.AI, IBM, Duke, and AWS.</p>
+      <p>I work across <strong>backend engineering</strong>, <strong>AI/ML integration</strong>, and production-ready software delivery. My flagship project, FaceAttend, is a live SaaS platform serving universities, and I’ve completed <strong>20+ certifications</strong> from Stanford, DeepLearning.AI, IBM, Duke, and AWS.</p>
     </div>
     <div id="skills">
       <div class="skill-group-label">technical stack</div>
@@ -111,7 +116,12 @@
       <div>
         <div class="project-badge">&#9679; flagship project</div>
         <h3>FaceAttend SaaS</h3>
-        <p>AI-powered facial recognition attendance system built for universities. Automates attendance tracking with real-time detection, anti-spoofing liveness detection, institutional dashboards, coordinator invite flows, enterprise API with API key management, and email notifications via Zoho Mail. Deployed on DigitalOcean with Docker + nginx and serving institutions across Africa.</p>
+        <p>AI-powered university attendance system that replaces manual check-ins with real-time verification, liveness detection, dashboard analytics, coordinator workflows, API access, and automated email notifications.</p>
+        <div class="project-metrics">
+          <div><strong>Live</strong><span>production</span></div>
+          <div><strong>AI</strong><span>verification</span></div>
+          <div><strong>24/7</strong><span>access</span></div>
+        </div>
         <div class="tech-stack">
           <span class="tech">FastAPI</span>
           <span class="tech">Flutter</span>
@@ -123,10 +133,10 @@
         </div>
         <a href="https://faceattend.app" target="_blank" class="project-link">faceattend.app &#8594;</a>
       </div>
-      <div style="padding:1.5rem;background:var(--surface2);border:1px solid var(--border);min-width:180px;text-align:center">
-        <div style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted);letter-spacing:0.1em;margin-bottom:1rem">SYSTEM STATUS</div>
-        <div style="font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:var(--green)">LIVE</div>
-        <div style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--green);margin-top:0.3rem">production</div>
+      <div class="project-status-box">
+        <div class="project-status-label">system status</div>
+        <div class="project-status-value">LIVE</div>
+        <div class="project-status-tag">production</div>
       </div>
     </div>
 
@@ -134,7 +144,12 @@
     <div class="project-card">
       <div class="project-badge">ML model · NLP</div>
       <h3>African SMS Spam Classifier</h3>
-      <p>Fine-tuned DistilBERT on African mobile money fraud SMS data to detect scams, phishing, and fraudulent messages. Achieves 96.7–100% accuracy. Deployed as a production FastAPI service on DigitalOcean with <code style="font-family:'DM Mono',monospace;font-size:0.8em;color:var(--accent)">/classify</code> and <code style="font-family:'DM Mono',monospace;font-size:0.8em;color:var(--accent)">/classify/batch</code> endpoints. Targeting Ugandan fintech integrations.</p>
+      <p>Fine-tuned DistilBERT for African mobile-money fraud SMS detection, built to catch scams, phishing, and fraudulent messaging patterns in real-world fintech environments.</p>
+      <div class="project-metrics">
+        <div><strong>96.7%</strong><span>accuracy</span></div>
+        <div><strong>FastAPI</strong><span>service</span></div>
+        <div><strong>Fintech</strong><span>use case</span></div>
+      </div>
       <div class="tech-stack">
         <span class="tech">DistilBERT</span>
         <span class="tech">Hugging Face</span>
@@ -151,7 +166,12 @@
     <div class="project-card">
       <div class="project-badge">ML model</div>
       <h3>AI Spam Classifier</h3>
-      <p>Machine learning model trained to detect and filter spam with high precision. Implements NLP feature extraction and binary classification. Live interactive demo on Hugging Face Spaces.</p>
+      <p>High-precision spam detection model using NLP feature engineering and binary classification, designed for quick testing and straightforward deployment as a live demo.</p>
+      <div class="project-metrics">
+        <div><strong>Fast</strong><span>demo</span></div>
+        <div><strong>NLP</strong><span>filtering</span></div>
+        <div><strong>Live</strong><span>access</span></div>
+      </div>
       <div class="tech-stack">
         <span class="tech">Python</span>
         <span class="tech">scikit-learn</span>
@@ -168,7 +188,12 @@
     <div class="project-card">
       <div class="project-badge">API integration</div>
       <h3>Weather App</h3>
-      <p>Real-time weather application with live data fetching, location-based forecasts, and clean data presentation via REST API integration.</p>
+      <p>Real-time weather dashboard that fetches live forecasts, transforms the data into a clear interface, and makes location-based weather insights easy to read.</p>
+      <div class="project-metrics">
+        <div><strong>Live</strong><span>data</span></div>
+        <div><strong>API</strong><span>integration</span></div>
+        <div><strong>UI</strong><span>clarity</span></div>
+      </div>
       <div class="tech-stack">
         <span class="tech">Python</span>
         <span class="tech">REST API</span>
@@ -238,7 +263,11 @@
   <div class="sec-title">Get in touch</div>
   <div class="contact-wrap">
     <div>
-      <p class="contact-text">I'm open to internships, collaborations, and full-time roles in machine learning and backend engineering. Let's build something together.</p>
+      <p class="contact-text">I'm open to internships, collaborations, and full-time roles in machine learning and backend engineering. If you need someone who can build, ship, and iterate fast, let's talk.</p>
+      <div class="contact-cta">
+        <span class="contact-status">available for work</span>
+        <a href="mailto:abubaker@faceattend.app" class="primary-contact-link">start a conversation</a>
+      </div>
       <div class="contact-socials">
         <div class="contact-socials-label">find me on</div>
         <div class="contact-social-grid">
